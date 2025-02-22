@@ -26,8 +26,8 @@ const App = () => {
         
         <PerspectiveCamera
           makeDefault
-          position={[2, 2, 5]}
-          fov={45} // Narrower FOV = more zoomed in
+          position={[2, 2.1, 3.0]}
+          fov={38} // Narrower FOV = more zoomed in
           near={0.1}
           far={100}
         />
@@ -42,7 +42,7 @@ const App = () => {
           minPolarAngle={0}
           maxDistance={8}
           minDistance={3}
-          zoom0={1.5} // Initial zoom level
+          zoom0={5.0} // Initial zoom level
           zoomSpeed={1.5} // How fast zoom responds to mouse wheel
           maxZoom={4}
           minZoom={0.5}
